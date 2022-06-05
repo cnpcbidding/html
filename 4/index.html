@@ -83,38 +83,34 @@
             </div>
         </div>
         <div class="col-md-6 col-xs-2">
-            <!-- <div class="qrcode pull-right">
-                <img src="https://www.cnpcbidding.com/templets/1/outer/images/qrcode.jpg" class="center-block" width="65" height="65" />
-                <p class="hidden-xs">能源一号网官方服务号</p>
-            </div> -->
-            <div class="weather pull-right">
-                <div><a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页 </a><span> | </span><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"> 加入收藏</a></div>
-
-                <div class="weather-api">
-                    <div  style="position: relative;overflow: hidden;cursor: pointer;height: auto;font-size: 12px;">
-                        <div style="float: left;width: auto;margin-top: 8px;">
-                            <div style="float: none;height: auto;width: 100%;">
-								<a title="修改城市"><strong style="line-height:18px; font-family:'微软雅黑'">北京</strong></a>
-							</div>
-                            <div style="float: left;height: auto;width: 100%;">
-								<a title="莲湖最近七天天气详情" href="http://www.tianqi.com/lianhuqu/?tq" target="_blank" style=" font-family:'微软雅黑'">近日天气</a>
-							</div>
-                        </div>
-                    
-                        <a target="_blank" href="http://www.tianqi.com/lianhuqu/?tq" title="阴">
-                            <div style="padding: 0 15px;float: left;margin-top: 6px;margin-left: 10px;margin-bottom: 10px;">
-                                <!-- <div class="wtpic"><img class="pngtqico" align="absmiddle" src="https://i.tianqi.com/static/images/tqicon1/b2.png" style="border:0;width:46px;height:46px"></div> -->
-                                <div style="float: left;width: auto;">
-                                    <div style="float: none;line-height: 1.3!important;width: 100%;margin-top: 3px;"><strong style="font-family:'微软雅黑'">今天</strong></div>
-                                    <div style="float: none;line-height: 1.3!important;width: 100%;margin-top: 3px;">-8~2℃</div>
-                                </div>
-                            </div>
-                        </a>
-            
-                    
+                    <div class="qrcode pull-right">
+                        <img src="https://www.cnpcbidding.com/templets/1/outer/images/qrcode.jpg" class="center-block" width="65" height="65">
+                        <p class="hidden-xs">能源一号网官方服务号</p>
                     </div>
-                </div>
-            </div>
+                    <div class="weather pull-right" style="margin-top: 25px;float: right !important;margin-right: 45px;">
+                        <div style="font-size: 14px;"><a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页 </a><span> | </span><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"> 加入收藏</a></div>
+        
+                        <div class="weather-api" style="margin-top: 8px;" >
+                            <!-- <iframe width="200" scrolling="no" height="45" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;icon=1&amp;num=1"></iframe> -->
+        					<div id="mobile4" style="font-size: 12px;">
+        					    <div class="wtleft" style="float: left;margin-right: 10px;">
+        					        <div class="wtname" style="float: none;"><a title="修改城市"><strong style="line-height:18px; font-family:'微软雅黑'">北京</strong></a></div>
+        					        <div class="order" style="float: left;margin-top: 3px;"><a title="莲湖最近七天天气详情" href="http://www.tianqi.com/lianhuqu/?tq" target="_blank" style=" font-family:'微软雅黑'">近日天气</a></div>
+        					    </div>
+        					
+        					    <a target="_blank" href="http://www.tianqi.com/lianhuqu/?tq" title="晴">
+        					        <div class="wt" id="day_1" style="float: left;margin-left: 5px;">
+        					            <div class="wtpic" style="float: left;"><img class="pngtqico" align="absmiddle" src="https://i.tianqi.com/static/images/tqicon1/b0.png" style="border:0;width:46px;height:46px"></div>
+        					            <div class="wt1" style="float: left;">
+        					                <div class="wtline"><strong style="font-family:'微软雅黑'">今天</strong></div>
+        					                <div class="wtline" style="font-family:'微软雅黑';margin-top: 3px;">-8~2℃</div>
+        					            </div>
+        					        </div>
+        					    </a>
+        					
+        					</div>
+                        </div>
+                    </div>
         </div>
     </div>
 </div>
@@ -158,7 +154,7 @@
 
 
 </script>		<div class="clearfix visible-xs-block mb20"></div>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" style="background-color: #cc0202;">
             <div>
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <!--<div class="navbar-header">-->
@@ -380,7 +376,7 @@
             <div class="row">
                     <div class="col-md-3">
                         <div class="categories">
-                            <h3>分类导航<span> / CATEGORIES</span></h3>
+                            <h3 style="color: #cc0202;">分类导航<span> / CATEGORIES</span></h3>
                             <ul id="nav_ul"><li><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html" categoryid="181" pid="180">公开招标中标候选人公示</a></li><li><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html" categoryid="182" pid="180">邀请招标中标候选人通知</a></li><li class="acitve"><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html" categoryid="183" pid="180">公开招标中标结果公示</a></li><li><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html" categoryid="184" pid="180">邀请招标中标结果通知</a></li></ul>
                         </div>
                     </div>
@@ -1156,7 +1152,7 @@
         <div class="clearfix mb20"></div>
 
 
-        <div class="links">
+        <div class="links" style="background-color: #cc0202;">
             <div class="row">
                 <!--<div class="col-md-6">
                     <div class="links-block">
